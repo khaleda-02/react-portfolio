@@ -10,7 +10,27 @@ function MainProjects() {
                         <h1 className='text-5xl text-yellow-400 capitalize mb-2 cairo px-3 '>{element.title} :   </h1>
                         <div className='flex justify-between items-center gap-4 flex-wrap'>
                             {
-                                
+                                element.id == 1 ?
+                                    <>
+                                        {element.projects.map(pro => {
+                                            return (<>
+                                                {
+                                                    <Project.PreferdProject id={pro.id} title={pro.title} imgScr={pro.img} link={pro.link} github={pro.github} data={pro.data} skills={pro.skills} preferd={pro.preferd} />
+                                                }
+                                            </>)
+                                        })}
+                                    </>
+                                    :
+                                    <>
+                                    {/* "kljsdflks" */}
+                                        {element.projects.map(pro => {
+                                            return (<>
+                                                {
+                                                    <Project.NonPreferdProject id={pro.id} title={pro.title} imgScr={pro.img} link={pro.link} github={pro.github} data={pro.data} skills={pro.skills} preferd={pro.preferd} />
+                                                }
+                                            </>)
+                                        })}
+                                    </>
                             }
                         </div>
                     </div>
