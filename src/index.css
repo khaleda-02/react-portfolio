@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+    outline: 1px solid red ;
+} */
+
+:root{
+    --green : #64ffda  ; 
+    --navy : #0a192f  ; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*:focus{
+    outline: none;
+}
+
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tag{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.435rem;
+    line-height: 1.75rem;
+    
+}
+.content{
+    position:  relative;
+    width: fit-content;
+
+}
+.content::after{
+    content:'' ; 
+    position: absolute;
+    width: 0%;
+    height: 1px ;
+    left: 0 ;
+    bottom: -1px ;
+    background-color: var(--green);
+    transition: .7s;
+}
+.content:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+/* about component  */
+.skills{
+    color:var(--green);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-transform: capitalize;
+    width: 40%;
+}
+.heading{
+    margin:  0  0  30px ;
+    position: relative;
+    font-size: 5rem ;
+    text-transform: capitalize ;
+    color:var(--green) ;
+    font-family: 'Zen Dots', cursive;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.cairo{
+    font-family: 'Cairo', sans-serif;
+}
+.caveat{
+    font-family: 'Caveat', cursive;
+}
+.dancing{
+    font-family: 'Dancing Script', cursive;
+}
+.cursive{
+    font-family: cursive;
+}
+.sans{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.zen{
+    font-family: 'Zen Dots', cursive;
 }

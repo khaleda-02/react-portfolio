@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Nav from "./components/mainComponents/Nav";
+import { useState } from "react";
+import Accounts from "./components/mainComponents/Accounts";
+import Main from "./components/mainComponents/Main";
+import About from "./components/mainComponents/About";
+import MySkills from "./components/mainComponents/MySkills";
+import  WhatCanIDo from "./components/mainComponents/WhatCanIDo.jsx";
 function App() {
+  const [scrolling, setScrolling] = useState(true)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`bg-navy text-white relative ${scrolling ? "h-fit" : "h-[100vh]"} overflow-hidden `}>
+      <Nav toggle={setScrolling} />
+      <Accounts.Social />
+      <Accounts.Email />
+      <div className="w-[70%] mx-auto">
+        <Main />
+        <About />
+        <MySkills />
+        <WhatCanIDo />
+      </div>
+
     </div>
   );
 }
