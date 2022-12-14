@@ -13,7 +13,7 @@ const ProjectsData = [
         projects: [
             {
                 id: 1,
-                data: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                data: "This Website is a netflix clone , you can use it to know trends and watch what's coming up , this project done in 3 days .",
                 skills: ["react", "tailwindcss", "firebase", "javascript"],
                 title: "netflix clone ",
                 img: netflix,
@@ -23,7 +23,7 @@ const ProjectsData = [
             },
             {
                 id: 2,
-                data: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                data: "This Website was a template on internet , I liked it , and challenge my self to build it to see it and learn more .",
                 skills: ["html5", "css3", "javascript"],
                 title: "kasper",
                 img: kasper,
@@ -33,7 +33,7 @@ const ProjectsData = [
             },
             {
                 id: 3,
-                data: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                data: "Website to show the new games and sell it online to the users to see it and learn more . ",
                 skills: ["html5", "css3", "javascript"],
                 title: "games store",
                 img: gaming,
@@ -49,7 +49,7 @@ const ProjectsData = [
         projects: [
             {
                 id: 4,
-                data: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                data: "a social media website have most features for sccail media and this project take 6 days to be done .",
                 skills: ["react", "MUI 5", "Github", "javascript"],
                 title: "social media ",
                 img: sm,
@@ -59,7 +59,7 @@ const ProjectsData = [
             },
             {
                 id: 5,
-                data: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                data: "Website for playing Rock , Paper and Scisser Game using pure javascript to see it and learn more .",
                 skills: ["html5", "css3", "javascript"],
                 title: "Rock Paper & Scisser Game ",
                 img: rps,
@@ -68,7 +68,7 @@ const ProjectsData = [
                 preferd: false
             },  {
                 id: 6,
-                data: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                data: "Website to show my profile , contain some of my projects , my scoial media accounts and some ways to content my to see it and learn more .",
                 skills: ["html5", "css3", "javascript"],
                 title: "dev Portfolio",
                 img: mainPortfolio,
@@ -79,7 +79,7 @@ const ProjectsData = [
             },
             {
                 id: 7,
-                data: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                data: "Website to show my profile , contain some of my projects , my scoial media accounts and some ways to content my to see it and learn more .",
                 skills: ["html5", "css3", "javascript"],
                 title: "portfolio ",
                 img: portfolio,
