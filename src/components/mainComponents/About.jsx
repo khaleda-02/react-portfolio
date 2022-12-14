@@ -2,37 +2,22 @@ import React from 'react'
 import img from '../../asseste/heigh quality.jpg'
 const About = () => {
     return (
-        <div className='w-full h-[90vh] flex flex-col justify-center items-start overflow-hidden'>
-            <h1 className='heading'>who am i ... </h1>
-            <div className='flex justify-start items-start gap-10 text-lg   '>
-                <div className='w-[50%] text-slate  leading-8'>
-                    <p className='text-[25px] mb-6 w-[90%]' >
-                        Hello! My name is Brittany and I enjoy creating things that live on the internet.
-                        My interest in web development started back in 2012 when I decided to try editing custom
-                        Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+        <div className='w-full min-h-[100vh] flex flex-col justify-center items-start overflow-hidden capitalize'>
+            <h1 className='w-full heading text-center xl:text-left'>who i am ... </h1>
+            <div className='flex justify-center items-center gap-10 flex-col-reverse lg:flex-row text-lg xl:items-center xl:justify-start '>
+                <div className='w-[90%] mx-autl md:w-[70%] text-left md:text-center leading-8 xl:w-[50%] xl:text-left  xl:leading-8  text-slate '>
+                    <p className='text-[20px] mb-6 w-[90%]' >
+
+                        I'm a frontend web developer using react and looking to be a MERN stack developer , but still exploring other technologies and frameworks that catch my
+                        interest! if you're looking for a developer to add to your team, I'd love to hear from you!
                     </p>
-                    <p className='text-[25px] my-6 w-[90%]'>
-                        Fast-forward to today, and I’ve had the privilege of working at an advertising agency,
-                        a start-up, a huge corporation, and a student-led design studio. My main focus these days is building
-                        accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+                    <p className='text-[20px] my-6 w-[90%]'>
+                        I started my coding journey almost exactly a 3 year ago and now I'm software developement student and doing freelance projects on the
+                        side for my friends. You may have noticed from my portfolio, but I'm obsessed with unique, interesting design and user-friendly
+                        functionality so hit me up with your weird artistic project ideas or app proposals.
                     </p>
-                    <p className='text-[25px] my-6 w-[90%]'>
-                        I also recently launched a course that covers everything you need to build a web app with the Spotify API
-                        using Node & React.
-                    </p>
-                    {/* <p className='text-[20px] my-6 w-[90%]'>
-                        Here are a few technologies I’ve been working with recently:
-                    </p>
-                    <div className='flex flex-wrap items-start justify-start gap-6 '>
-                        <h3 className='skills'> .  javaScript (ES6+)</h3>
-                        <h3 className='skills'> .  React.js</h3>
-                        <h3 className='skills'> .  TailwindCss</h3>
-                        <h3 className='skills'> .  Bootstrap </h3>
-                        <h3 className='skills'> .  MUI 5 </h3>
-                        <h3 className='skills'> .  GitHub</h3>
-                    </div> */}
                 </div>
-                <div className='w-[30%] relative rounded-md group '>
+                <div className='hidden xl:block lg:w-[30%] relative rounded-md group '>
                     <img src={img} alt='me' className='w-full bg-cover my-img relative z-[5]' />
                     <div className='w-full h-full absolute left-0 top-0 z-[10]   group-hover:bg-green/40 duration-700 '></div>
                     <div className='w-full h-full absolute right-[-15px] bottom-[-15px] z-[0] border-solid border-2 border-green group-hover:right-0 group-hover:bottom-0 duration-700 '></div>

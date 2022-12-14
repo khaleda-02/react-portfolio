@@ -7,10 +7,9 @@ function MainProjects() {
             {ProjectsData.map(element => {
                 return (
                     <div className='py-10' >
-                        <h1 className='text-5xl text-yellow-400 capitalize mb-2 cairo px-3 '>{element.title} :   </h1>
                         <div className='flex justify-between items-center gap-4 flex-wrap'>
                             {
-                                element.id == 1 ?
+                                element.id === 1 ?
                                     <>
                                         {element.projects.map(pro => {
                                             return (<>
@@ -22,7 +21,6 @@ function MainProjects() {
                                     </>
                                     :
                                     <>
-                                    {/* "kljsdflks" */}
                                         {element.projects.map(pro => {
                                             return (<>
                                                 {

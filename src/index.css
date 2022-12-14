@@ -60,11 +60,11 @@
 .heading{
     margin:  0  0  30px ;
     position: relative;
-    font-size: 5rem ;
+    font-size: 4.5rem ;
     text-transform: capitalize ;
     color:var(--green) ;
-    font-family: 'Zen Dots', cursive;
-    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: 'Zen Dots', cursive; */
+    font-family: 'Courier New', Courier, monospace;
 }
 .cairo{
     font-family: 'Cairo', sans-serif;
