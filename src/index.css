@@ -61,10 +61,15 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+
+
 @media all and (max-width: 768px) {
   .heading {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 10px 0  0 ;
+  }
+  .heading span {
+    display: none;
   }
 }
 
@@ -86,4 +91,14 @@
 
 .zen {
   font-family: "Zen Dots", cursive;
+}
+
+
+.sub-text{
+  color: var(--green);
+  text-transform: capitalize;
+}
+*::selection{
+  background-color:var(--green);
+  color: var(--navy);
 }

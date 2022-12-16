@@ -23,11 +23,11 @@ const Nav = ({ toggle }) => {
             <div className={`w-full h-[90vh] ${menuVisability ? " top-[10vh] " : " top-[-100%] "} bg-light-navy absolute  w-full h-full left-0  flex items-center justify-center duration-[0.4s] z-20  `}>
                 <div className={`flex flex-col justify-center items-center  gap-10  `}>
                     <h1 className='text-center text-sm font-light text-green uppercase p-0 m-0'>- Menu -</h1>
-                    <a href='#df' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>about</a>
-                    <a href='#df' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>Experience</a>
-                    <a href='#df' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>work</a>
-                    <a href='#df' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>Skills</a>
-                    <a href='#df' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>contact </a>
+                    <a href='#about' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>about</a>
+                    {/* <a href='#df' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>Experience</a> */}
+                    <a href='#skills' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>Skills</a>
+                    <a href='#work' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>work</a>
+                    <a href='#contact' alt='link' className='text-7xl text-green font-extrabold  hover:tracking-widest duration-300 capitalize'>contact </a>
                 </div>
             </div>
         </div>

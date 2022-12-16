@@ -3,12 +3,20 @@ import { TbBrandGithub, TbBrandInstagram, TbBrandLinkedin, TbBrandTwitter } from
 
 const Social = () => {
     return (
-        <div className="hidden xl:flex fixed left-24  bottom-0 flex-col justify-center items-center gap-5 " >
-            <TbBrandGithub className="text-slate hover:text-green hover:translate-y-[-4px] duration-300 cursor-pointer" size={40} />
-            <TbBrandLinkedin className="text-slate hover:text-green hover:translate-y-[-4px] duration-300 cursor-pointer" size={40} />
-            <TbBrandTwitter className="text-slate hover:text-green hover:translate-y-[-4px] duration-300 cursor-pointer" size={40} />
-            <TbBrandInstagram className="text-slate hover:text-green hover:translate-y-[-4px] duration-300 cursor-pointer" size={40} />
-            <div className="w-[2px] h-[120px] bg-slate"></div>
+        <div className="flex flex-row xl:flex-col justify-center items-center gap-5 relative xl:fixed xl:left-24 bottom-0 py-5 xl:py-0" >
+            <a href="https://github.com/khaleda-02" rel="noreferrer"  target="_blank" className="text-slate hover:text-green hover:translate-y-[-4px] duration-300 cursor-pointer">
+                <TbBrandGithub size={40} />
+            </a>
+            <a href="https://www.linkedin.com/in/khaled-elkhalili-656326244/" rel="noreferrer"  target="_blank" className="text-slate hover:text-green hover:translate-y-[-4px] duration-300 cursor-pointer">
+                <TbBrandLinkedin size={40} />
+            </a>
+            <a href="https://twitter.com/khaleda_02" rel="noreferrer"  target="_blank" className="text-slate hover:text-green hover:translate-y-[-4px] duration-300 cursor-pointer">
+                <TbBrandTwitter size={40} />
+            </a>
+            <a href="https://instagram.com/khaleda.02" rel="noreferrer"  target="_blank" className="text-slate hover:text-green hover:translate-y-[-4px] duration-300 cursor-pointer">
+                <TbBrandInstagram size={40} />
+            </a>
+            <div className="hidden xl:block w-[2px] h-[120px] bg-slate"></div>
         </div>
     )
 }
