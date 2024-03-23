@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.430230ca.css",
+    "main.js": "/static/js/main.33e95a94.js",
+    "static/media/main portfolio.png": "/static/media/main portfolio.a19446577009ba9fef20.png",
+    "static/media/netflix.png": "/static/media/netflix.14e3d55113ff3645695f.png",
+    "static/media/me noBorder.jpg": "/static/media/me noBorder.8092481cd07c398a8bf6.jpg",
+    "static/media/kasper.png": "/static/media/kasper.6b50eddfe6eedd3659f1.png",
+    "static/media/social media.png": "/static/media/social media.da48e1215abe3409f337.png",
+    "static/media/insta-master.png": "/static/media/insta-master.69812480dba5db7cf32f.png",
+    "static/media/portfolio.png": "/static/media/portfolio.af166478bb965aa61064.png",
+    "static/media/gamming.png": "/static/media/gamming.9fafa6a4cec917ac65c1.png",
+    "static/media/game .png": "/static/media/game .5e30df47a1ebdc620cd4.png",
+    "static/media/auth-app.png": "/static/media/auth-app.f3ff8ed356e2c218f77b.png",
+    "static/media/resume.pdf": "/static/media/resume.ecca594b8a6ecc00e26e.pdf",
+    "index.html": "/index.html",
+    "main.430230ca.css.map": "/static/css/main.430230ca.css.map",
+    "main.33e95a94.js.map": "/static/js/main.33e95a94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.430230ca.css",
+    "static/js/main.33e95a94.js"
+  ]
+}

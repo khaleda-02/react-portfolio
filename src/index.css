@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+    outline: 1px solid red ;
+    } */
+ol {
+  list-style: circle;
+  padding: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --green: #64ffda;
+  --navy: #0a192f;
+}
+
+*:focus {
+  outline: none;
+}
+
+.courier {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.tag {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.435rem;
+  line-height: 1.75rem;
+}
+.content {
+  position: relative;
+  width: fit-content;
+}
+.content::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  left: 0;
+  bottom: -1px;
+  background-color: var(--green);
+  transition: 0.7s;
+}
+.content:hover::after {
+  width: 100%;
+}
+
+/* about component  */
+.skills {
+  color: var(--green);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-transform: capitalize;
+  width: 40%;
+}
+.heading {
+  margin: 0 0 30px;
+  position: relative;
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: var(--green);
+  /* font-family: 'Zen Dots', cursive; */
+  font-family: "Courier New", Courier, monospace;
+  text-align: left !important;
+}
+.center {
+  text-align: center !important;
+}
+@media all and (max-width: 1375px) {
+  .heading span {
+    display: none;
+  }
+}
+@media all and (max-width: 1075px) {
+  .heading {
+    font-size: 2.5rem;
+    margin: 10px 0 10px;
+    text-align: center !important;
+  }
+}
+
+.cairo {
+  font-family: "Cairo", sans-serif;
+}
+.caveat {
+  font-family: "Caveat", cursive;
+}
+.dancing {
+  font-family: "Dancing Script", cursive;
+}
+.cursive {
+  font-family: cursive;
+}
+.sans {
+  font-family: "PT Sans", sans-serif;
+}
+
+.zen {
+  font-family: "Zen Dots", cursive;
+}
+
+.sub-text {
+  color: var(--green);
+  text-transform: capitalize;
+}
+*::selection {
+  background-color: var(--green);
+  color: var(--navy);
+}
