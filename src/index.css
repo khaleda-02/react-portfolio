@@ -82,6 +82,11 @@ html {
     text-align: center !important;
   }
 }
+/* experience */
+.active-year {
+  background-color: var(--green);
+  color: var(--navy);
+}
 
 .cairo {
   font-family: "Cairo", sans-serif;

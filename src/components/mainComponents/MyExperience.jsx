@@ -31,8 +31,7 @@ const MyExperience = () => {
   //TODO : make the default value of the state the length of the map's keys.
   //TODO : upwork profile, and dash comapny link
   //TODO : make a compo for year button
-  //TODO : specify the active year.
-  const [year, setYear] = useState(2020);
+  const [year, setYear] = useState(2023);
   return (
     <SectionTem id="experience">
       <h1 className="w-full heading ">
@@ -42,25 +41,31 @@ const MyExperience = () => {
       <div className="w-full flex justify-center lg:justify-start items-start flex-wrap gap-5">
         <div className="w-full md:w-[15%] flex lg:flex-col justify-center items-center lg:gap-4">
           <button
-            className="text-green font-extrabold  text-xl md:text-2xl mb-3 mx-3"
+            className={`text-green font-extrabold  text-xl md:text-2xl py-3 px-5 ${
+              year === 2020 ? "active-year" : ""
+            }`}
             onClick={() => setYear(2020)}
           >
             2020
           </button>
           <button
-            className="text-green font-extrabold  text-xl md:text-2xl mb-3 mx-3"
+            className={`text-green font-extrabold  text-xl md:text-2xl py-3 px-5 ${
+              year === 2021 ? "active-year" : ""
+            }`}
             onClick={() => setYear(2021)}
           >
             2021
           </button>
           <button
-            className="text-green font-extrabold  text-xl md:text-2xl mb-3 mx-3"
+            className={`text-green font-extrabold  text-xl md:text-2xl py-3 px-5 ${
+              year === 2023 ? "active-year" : ""
+            }`}
             onClick={() => setYear(2023)}
           >
             2023
           </button>
         </div>
-        <div className="w-full md:w-[8%] lg:w-[70%] xl:pt-4">
+        <div className="w-full lg:w-[70%] xl:pt-4">
           <h2 className="font-bold text-2xl text-green capitalize">
             {experience[year].title}
           </h2>
@@ -70,25 +75,36 @@ const MyExperience = () => {
             ))}
           </ol>
         </div>
-        {/* <Major
-          majorName="backend development"
-          skills={["Node.js ", "typescript", "nest.js", "express.js"]}
-        />
-        <Major
-          majorName="frontend development"
-          skills={[
-            "React",
-            "Redux toolkit",
-            "React Query ",
-            "vue",
-            "Tailwindcss , Bootstrap",
-          ]}
-        />
-        <Major majorName="Database" skills={["MYSQL", "MongoDB", "Postgres"]} />
-        <Major
-          majorName="familiar with"
-          skills={["aws", "GraphQl", "Docker", "redis"]}
-        /> */}
+      </div>
+
+      <div className="w-full mt-5">
+        <h2 className="sub-text font-extrabold text-xl">
+          so, my experience conclude in :
+        </h2>
+        <div className="w-full flex justify-center lg:justify-start items-start flex-wrap mt-3 gap-4">
+          <Major
+            majorName="backend development"
+            skills={["Node.js ", "typescript", "nest.js", "express.js"]}
+          />
+          <Major
+            majorName="frontend development"
+            skills={[
+              "React",
+              "Redux toolkit",
+              "React Query ",
+              "vue",
+              "Tailwindcss , Bootstrap",
+            ]}
+          />
+          <Major
+            majorName="Database"
+            skills={["MYSQL", "MongoDB", "Postgres"]}
+          />
+          <Major
+            majorName="familiar with"
+            skills={["aws", "GraphQl", "Docker", "redis"]}
+          />
+        </div>
       </div>
     </SectionTem>
   );
@@ -97,7 +113,7 @@ const MyExperience = () => {
 const Major = ({ majorName, skills }) => {
   return (
     <div className="w-full md:w-[45%] lg:w-[23%] ml-2 mb-2">
-      <h2 className="font-bold text-xl text-green capitalize">{majorName} </h2>
+      <h3 className="font-bold text-lg text-green capitalize">{majorName} </h3>
       <ol className="pt-0 m-0">
         {skills.map((e) => (
           <li className="capitalize text-slate">{e}</li>
