@@ -2,7 +2,6 @@ import Accounts from "./components/mainComponents/Accounts";
 import Main from "./components/mainComponents/Main";
 import About from "./components/mainComponents/About";
 import WhatCanIDo from "./components/mainComponents/WhatCanIDo.jsx";
-import Contact from "./components/mainComponents/Contact";
 import Footer from "./components/mainComponents/Footer";
 import Nav from "./components/mainComponents/Nav";
 import { useState } from "react";
@@ -24,7 +23,6 @@ function App() {
         <MyExperience />
         <WhatCanIDo />
         <Offer />
-        {/* <Contact /> */}
         <Accounts.Social />
         <Accounts.Email />
       </div>

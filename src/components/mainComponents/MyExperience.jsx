@@ -6,7 +6,17 @@ const MyExperience = () => {
       title: "Starting Point | Front end Dev.",
       points: [
         "start learning html,css, and javascript.",
-        "practiced problems solving on leetscode and codewars.",
+        <li>
+          practiced problems solving on{" "}
+          <a href="" target="_blank" className="sub-text">
+            leetscode{" "}
+          </a>
+          and{" "}
+          <a href="" target="_blank" className="sub-text">
+            codewars
+          </a>
+          .
+        </li>,
         "knew about the UI frameworks like: react and angular, and I chose to learn React.",
       ],
     },
@@ -14,17 +24,43 @@ const MyExperience = () => {
       title: "React Dev.",
       points: [
         "I got an offer at local company and required a project, built a e-school website using react with redux as state management, and tailwind for Ui , and I was the main developer in the team, this project done within 2 months.",
-        "started freelancing at upwrok and got many jobs with 4-5 stars review, here's my profile.",
+        <li>
+          started freelancing at upwrok and got many jobs with 4-5 stars review,{" "}
+          <a href="" target="_blank" className="sub-text ">
+            here's my profile.
+          </a>
+        </li>,
         "me and my friend hamada stared to learn node.js and express.js.",
       ],
     },
     2023: {
       title: "Fullstack Dev.",
       points: [
-        "got an internship at Dash company as a backend developer using node.js and nestjs, I built many backend projects and got an excellent feedback and took a special trainee badge.",
+        <li>
+          got an internship at{" "}
+          <a href="" target="_blank" className="sub-text">
+            {" "}
+            Dash company
+          </a>{" "}
+          as a backend developer using node.js and nestjs, I built many backend
+          projects and got an excellent feedback and took a special trainee
+          badge.
+        </li>,
         "built a team with my colleagues and built many fake projects as a training.",
-        "recently my focus was on problem solving contest, and me and my friends participated in the pcpc contest and we got the top ten across gaza city.",
-        "got 89% job success on upwork, and more than 6 jobs.",
+        <li>
+          recently my focus was on problem solving contest, and me and my
+          friends participated in the pcpc contest and we got the top ten across
+          gaza city,{" "}
+          <a href="" target="_blank" className="sub-text">
+            here's my cert.
+          </a>
+        </li>,
+        <li>
+          got 89% job success on upwork, and more than 6 jobs, here's{" "}
+          <a href="" target="_blank" className="sub-text">
+            my upwork profile.
+          </a>
+        </li>,
       ],
     },
   };
@@ -77,7 +113,7 @@ const MyExperience = () => {
         </div>
       </div>
 
-      <div className="w-full mt-5">
+      <div className="w-full mt-10">
         <h2 className="sub-text font-extrabold text-xl">
           so, my experience conclude in :
         </h2>
