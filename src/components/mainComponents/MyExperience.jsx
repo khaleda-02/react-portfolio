@@ -26,7 +26,11 @@ const MyExperience = () => {
         "I got an offer at local company and required a project, built a e-school website using react with redux as state management, and tailwind for Ui , and I was the main developer in the team, this project done within 2 months.",
         <li>
           started freelancing at upwrok and got many jobs with 4-5 stars review,{" "}
-          <a href="" target="_blank" className="sub-text ">
+          <a
+            href="https://www.upwork.com/freelancers/~014d43889306aeb370"
+            target="_blank"
+            className="sub-text "
+          >
             here's my profile.
           </a>
         </li>,
@@ -38,7 +42,7 @@ const MyExperience = () => {
       points: [
         <li>
           got an internship at{" "}
-          <a href="" target="_blank" className="sub-text">
+          <a href="https://dash.ps/" target="_blank" className="sub-text">
             {" "}
             Dash company
           </a>{" "}
@@ -51,13 +55,21 @@ const MyExperience = () => {
           recently my focus was on problem solving contest, and me and my
           friends participated in the pcpc contest and we got the top ten across
           gaza city,{" "}
-          <a href="" target="_blank" className="sub-text">
+          <a
+            href="https://drive.google.com/drive/folders/1nCn6s4Cdpic5Fw96_jpKt1RRbiJGZLnF?usp=sharing"
+            target="_blank"
+            className="sub-text"
+          >
             here's my cert.
           </a>
         </li>,
         <li>
           got 89% job success on upwork, and more than 6 jobs, here's{" "}
-          <a href="" target="_blank" className="sub-text">
+          <a
+            href="https://www.upwork.com/freelancers/~014d43889306aeb370"
+            target="_blank"
+            className="sub-text"
+          >
             my upwork profile.
           </a>
         </li>,
@@ -65,7 +77,6 @@ const MyExperience = () => {
     },
   };
   //TODO : make the default value of the state the length of the map's keys.
-  //TODO : upwork profile, and dash comapny link
   //TODO : make a compo for year button
   const [year, setYear] = useState(2023);
   return (

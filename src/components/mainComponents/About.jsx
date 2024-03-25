@@ -24,7 +24,7 @@ const About = () => {
           </p>
           <p className="text-[18px] w-[90%]my-6 mr-auto hidden lg:block text-center lg:text-left">
             I started my coding journey almost a 3 year ago and now I'm{" "}
-            <span className="sub-text">software development student</span> and
+            <span className="sub-text">software development graduated</span> and
             doing freelance projects on the side. You may have noticed from my
             portfolio, but I'm obsessed with unique, interesting design and
             user-friendly functionality so hit me up with your weird artistic
